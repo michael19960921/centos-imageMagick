@@ -1,8 +1,0 @@
-1.将所有的包放置在linux的一个目录下，例如/home/python
-2.在终端进入包放置的目录下，（我以/home/python为例）：
-	终端输入【chmod 777 -R /home/python 】回车，【cd  /home/python】回车，【./install.sh】回车，等待完毕即可
-3.测试，【python】回车，输入一下命令：
-	import matplotlib.pyplot as plt
-	plt.plot([1,2,3],[5,7,4])
-	plt.savefig('/home/test.png')
-执行完后在home目录下有test.png图片表示成功
